@@ -1,4 +1,4 @@
-# Iterative Boost in Cedar
+# Slow Boost in Cedar
 
 This Cedar plugin induce an iterative boost. At each time step, an increasing boost is produced until a certain threshold.
 The widget takes a node as input. So basically, a boost rises until it receives an activation from a node.
@@ -55,7 +55,7 @@ Execute cedar and load it into cedar
 
 *Tools -> Manage plugins*
 
-In the plugin Manager window, click on *add* and choose the plugin libIterativeBoost.so (located in build/). This one should appear in the window.
+In the plugin Manager window, click on *add* and choose the plugin libSlowBoost.so (located in build/). This one should appear in the window.
 
 You can close the window. The plugin is loaded inside cedar.
 
