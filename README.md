@@ -24,12 +24,20 @@ You can't use a precompiled version of Cedar to compile and run the plugin.
 
 I suggest reading about how to create a plugin in Cedar first, it will greatly help to understand how it works : https://cedar.ini.rub.de/tutorials/writing_custom_code_for_cedar/
 
+**INSTALL YARP**
+
+This last version of the plugin requires yarp (cedar built with yarp support - you don't have to do$
+
+https://www.yarp.it/install.html
+
+If you don't need it, remove the find_package(YARP REQUIRED) in the cedarProject.cmake
+
 
 ### Installing
 
 First clone the repository :
 
-`https://github.com/rouzinho/IterativeBoost.git`
+`https://github.com/rouzinho/SlowBoost.git`
 
 In the project.conf, change the CEDAR_HOME directory to your own :
 
@@ -47,7 +55,7 @@ Finally start the compilation :
 
 `make`
 
-You should see the plugin under the name libEarListener.so in the build/ repository
+You should see the plugin under the name libSlowBoost.so in the build/ repository
 
 ## Run the plugin
 
